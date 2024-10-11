@@ -1,11 +1,9 @@
-import Menu from "./Menu"
+import Menu from './Menu'
 
 export interface PaginaProps {
     children: any
     className?: string
 }
-
-
 
 export default function Pagina(props: PaginaProps) {
     return (

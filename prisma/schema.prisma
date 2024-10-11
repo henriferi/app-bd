@@ -13,6 +13,6 @@ datasource db {
 model Usuario {
   id    String @id @default(cuid())
   email String  @unique
-  nome  String
   senha String
+  nome  String
 }
